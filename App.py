@@ -15,7 +15,7 @@ st.title("Credit Card Fraud Detection")
 
 @st.cache_data
 def load_data():
-    data = pd.read_csv(r"https://drive.google.com/file/d/1JsdrNqQr5nQszcGQ7QqRYgFGllSESd_N/view?usp=drive_link")
+    data = pd.read_csv(r"Credit_Card_Fraud_Detection.csv")
     return data
 
 data = load_data()
